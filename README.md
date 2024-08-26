@@ -35,8 +35,8 @@ In this task, I addressed the need to accurately generate SPDX v3.0 reports in t
 - [Report in RDF Format](./static/SPDX3RDF_Twig-3.10.3.tar.gz_1724610679.spdx.rdf)
 - [Report in tag:value Format](./static/SPDX3TV_Twig-3.10.3.tar.gz_1724610687.spdx)
 </br>
-</br>
-- Reports can be obtained from the drop-down menu according to the required format and also multi-upload report can be obtained from the "SPDX3 generation" button. 
+- Reports can be obtained from the drop-down menu according to the required format and also multi-upload report can be obtained from the "SPDX3 generation" button.
+
 ![image](./static/drop-down-menu.png)
 
 - The Show Jobs page will show the scheduled report generation task accordingly.
@@ -50,40 +50,30 @@ In this task, I addressed the need to accurately generate SPDX v3.0 reports in t
     - The Software profile contains information about files, packages, SBOMs, snippets, and artifacts of the software application.
 
 Implemented the following use cases as required by the organization under Core and Software profile:
-- Person
-</br>
+<h4>- Person</h4>
 <img src="./static/Person.png" alt="Description" width="500"/>
-- Tool
-</br>
+<h4>- Tool</h4>
 <img src="./static/tool.png" alt="Description" width="500"/>
-- File
-</br>
+<h4>- File</h4>
 <img src="./static/file.png" alt="Description" width="1000"/>
-- Package
-</br>
+<h4>- Package</h4>
 <img src="./static/Package.png" alt="Description" width="1000"/>
-- Relationship with Package containing Files
-</br>
+<h4>- Relationship with Package containing Files</h4>
 <img src="./static/relationship.png" alt="Description" width="1000"/>
-- SpdxDocument with Files
-</br>
+<h4>- SpdxDocument with Files</h4>
 <img src="./static/spdx_document.png" alt="Description" width="1000"/>
 
 - Licensing profile
     - The Licensing profile describes the aspects of licensing for the software application under three categories (sub-directories) - Licensing, SimpleLicensing, and ExpandedLicensing. The Licensing category describes information about declared licenses and concluded (detected) licenses. The SimpleLicensing category describes information about text-formatted licenses. The ExpandedLicensing category describes information about parseable and machine-readable licenses.
 
 Implemented the following use cases as required by the organization under Licensing profile:
-- Simple Licensing Any License Info: For all licenses
-</br>
+<h4>- Simple Licensing Any License Info: For all licenses</h4>
 <img src="./static/anylicenseinfo.png" alt="Description" width="1000"/>
-- Expanded Licensing Custom License: For Extracted License Info From File
-</br>
+<h4>- Expanded Licensing Custom License: For Extracted License Info From File</h4>
 <img src="./static/extractedlicenseinfo.png" alt="Description" width="1000"/>
-- Expanded Licensing Conjunctive and Disjunctive Licensing Set: For Dual Licenses
-</br>
+<h4>- Expanded Licensing Conjunctive and Disjunctive Licensing Set: For Dual Licenses</h4>
 <img src="./static/Dual License.png" alt="Description" width="1000"/>
-- Annotation: For LicenseInfoFromFile and for LicenseInfoInFile
-</br>
+<h4>- Annotation: For LicenseInfoFromFile and for LicenseInfoInFile</h4>
 <img src="./static/annotation.png" alt="Description" width="1000"/>
 
 <h2>3. Support ingestion of SPDX v3.0 reports</h2>
